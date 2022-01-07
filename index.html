@@ -5,12 +5,104 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/index.css">
-  <title>Spotifu</title>
+  <title>Spotifu Using FlexBox</title>
 </head>
-<body>
-  <h1>Spotifu</h1>
+<body class="body">
+  <div class="sidebar">
+  <header class="logo">
+      <a href="#" aria-current="page">
+        <img src="./images/spotifu-logo.png" width="112" height="32" alt="Logo de Spotifu" class="logo-image">
+      </a>
+  </header>
+  <nav class="menu" aria-label="Principal">
+    <ul class="menu-list">
+      <li class="menuItem is-active">
+        <a href="/" class="link" aria-current="page">
+          <i class="icon-home" aria-hidden="true"></i><span>Inicio</span>
+        </a>
+      </li>
+      <li class="menuItem">
+        <a href="/" class="link">
+          <i class="icon-search" aria-hidden="true"></i><span>Buscar</span>
+        </a>
+      </li>
+      <li class="menuItem">
+        <a href="/" class="link">
+          <i class="icon-creditCard" aria-hidden="true"></i><span>Premium</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="list" aria-labelledby="library-navigation">
+    <h2 class="list-title" id="library-navigation">Tu Biblioteca</h2>
+    <ul class="list-content">
+      <li class="list-item">
+        <a href="#" class="link">Creada para ti</a>
+      </li>
+      <li class="elipsis">
+        <a href="#" class="link">Escuchado recientemente</a>
+      </li>
+      <li>
+        <a href="#" class="link">Tu me gustas</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="list" aria-labelledby="Playlist">
+    <h2 class="list-title" id="Playlist">Playlist</h2>
+  <ul class="list-content">
+      <li class="list-item">
+        <a href="#" class="link">Lo mejor de lo mejor</a>
+      </li>
+      <li>
+        <a href="#" class="link">Imagine</a>
+      </li>
+      <li>
+        <a href="#" class="link">La vaca lola</a>
+      </li>
+      <li>
+        <a href="#" class="link">Musica de prueba</a>
+      </li>
+      <li>
+        <a href="#" class="link">Musica de prueba</a>
+      </li>
+      <li>
+        <a href="#" class="link">Musica de prueba</a>
+      </li>
+      <li>
+        <a href="#" class="link">Musica de prueba</a>
+      </li>
+      <li>
+        <a href="#" class="link">Musica de prueba</a>
+      </li>
+      <li>
+        <a href="#" class="link">Musica de prueba</a>
+      </li>
+      <li>
+        <a href="#" class="link">Musica de prueba</a>
+      </li>
+      <li>
+        <a href="#" class="link">Musica de prueba</a>
+      </li>
+      <li>
+        <span class="elipsis">
+          <a href="#" class="link">Musica de prueba,Musica de prueba,Musica de prueba, Musica de prueba, Musica de prueba</a>
+        </span>
+      </li>
+      <li>
+        <a href="#" class="link">In the beach</a>
+      </li>
+      <li>
+        <a href="#" class="link">La vaca lola</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+  <div class="boton">
+    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+      <i class="icon-play" aria-hidden="true"></i>
+    </button>
+  </div>
+
 </body>
 </html>
-
-
-
